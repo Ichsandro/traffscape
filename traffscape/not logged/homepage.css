@@ -1,0 +1,260 @@
+* {
+    margin : 0;
+    padding : 0;
+    font-family: 'Proxima Nova', Proxima Nova, Proxima Nova;
+    background: #F4D497;
+
+}
+
+.garis {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.hero {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    margin : 30px auto;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    flex :1;
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    list-style : none;
+    margin : 0 25px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding : 0 10px;
+    position : relative;
+}
+
+ul li a::after {
+    content: '';
+    width: 0;
+    height : 10px;
+    background: #A56248;
+    position: absolute;
+    left : 50%;
+    transform: translateX(-50%);
+    top : -55px;
+    transition: 0.5s;
+}
+
+ul li a:hover::after {
+    width : 100%;
+}
+
+.navbar-icons img {
+    height: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.navbar-icons {
+    margin-left: 40px;
+
+}
+
+.banner {
+    display : flex;
+    margin-top: 80px;
+}
+
+.left-column, .right-column {
+    flex-basis : 50%;
+}
+
+.right-column img{
+    width: 100%;
+
+}
+
+.search-box {
+    width: 45%;
+    display: flex;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0 30px;
+}
+
+.search-box img {
+    height : 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.search-box input{
+    width: 100%;
+    margin-left: 15px;
+    font-size: 17px;
+    border: 0;
+    outline: none;
+}
+
+.left-column h1{
+    font-size: 100px;
+}
+
+.left-column h3{
+    font-size: 35px;
+}
+
+span {
+    color: #A56248;
+}
+
+.left-column p{
+    font-size: 14px;
+    color: #999;
+    margin: 50px 0;
+}
+
+.btn button {
+    padding: 7px 30px;
+    margin-right: 15px;
+    outline: none;
+    border: 1px solid #064959;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #064959;
+    background: transparent;
+}
+.btn .primary-btn {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.164);
+}
+
+.btn {
+    margin-bottom: 50px;
+}
+
+
+.social-icons {
+    width: 200px;
+    text-align: center;
+    opacity: .4;
+    display: inline-block;
+    position: relative;
+}
+
+.social-icons img {
+    height: 20px;
+    margin: 0 14px;
+}
+
+.services {
+    margin: 0;
+    padding: 0;
+    font-family: "Proxima Nova", sans-serif;
+    text-align: center;
+}
+
+.services h1 {
+    display: inline-block;
+    color: #064959;
+    border-bottom: 4px solid #064959;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cen {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.service {
+    display: inline-block;
+    width : calc(100% / 3);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.service:hover {
+    background: #064959;
+}
+
+.service i{
+    color: #3498db;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.service h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+}
+
+.service p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer {
+    display:flex;
+    justify-content:center;
+       align-items:center;
+     
+    
+    }
+
+
+@media screen and (max-width: 800px) {
+    .service {
+        width: 50%;
+    }
+    .hero {
+        width: 50%;
+    }
+    .banner {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .service {
+        width: 100%;
+    }
+    .banner {
+        width: 100%;
+    }
+    .hero {
+        width: 100%;
+    }
+}
+button {
+    color: white;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    background-color: #55b88a;
+
+}
+
+button:hover {
+    color: white;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    background-color: #064959;
+}

@@ -1,0 +1,5 @@
+<p>&nbsp;</p>
+<p>Sign Up</p>
+<form class="box" action="index.html" method="post">
+<h2>SignUp</h2>
+<input name="User" type="text" placeholder="Username" /> <input name="Email" type="text" placeholder="Enter your email" /> <input name="Pass" type="password" placeholder="Enter Password" /> <input name="PassConfirmation" type="password" placeholder="Re Enter Password" /> <input name="Signup" type="submit" value="Sign up" /></form>

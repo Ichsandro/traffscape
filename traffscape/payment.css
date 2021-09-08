@@ -1,0 +1,53 @@
+.navbar {
+    margin : 30px auto;
+    display: flex;
+    align-items: center;
+    font-family: "Proxima Nova"
+}
+
+ul {
+    flex :1;
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    list-style : none;
+    margin : 0 25px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding : 0 10px;
+    position : relative;
+}
+
+ul li a::after {
+    content: '';
+    width: 0;
+    height : 10px;
+    background: #A56248;
+    position: absolute;
+    left : 50%;
+    transform: translateX(-50%);
+    top : -55px;
+    transition: 0.5s;
+}
+
+ul li a:hover::after {
+    width : 100%;
+}
+
+.navbar-icons img {
+    height: 25px;
+    cursor: pointer;
+}
+
+.navbar-icons {
+    margin-left: 40px;
+    
+.content-wrapper {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;}

@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Payment</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="/js/lib/dummy.js"
+    
+  ></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      /* ----- CSS ----- */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+	font-family: 'proxima_nova_rgregular';
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'proxima_nova_rgbold';
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+h1 {
+	font-family: proxima_nova_rgbold;
+	font-size: 50px;
+	font-weight: normal;
+	text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3 {
+	font-family: proxima_nova_rgbold;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+body {
+	background-color: #D9B29C;
+	font-family: proxima_nova_rgregular;
+	text-align: center;
+}
+
+input[name="rooms"] {
+  display: none;
+}
+
+#button2 {
+  background-color: #024959;
+  border: 1px solid #D9B29C;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 50px;
+  height: 130px;
+  outline: none;
+  transition: background-color .3s ease, color .3s ease;
+  width: 130px;
+}
+
+#button2[clicked] {
+  color: white;
+  background-color: #a66249;
+}
+
+.submit a {
+  text-decoration : none;
+  color : black;
+}
+
+.Balance a {
+  text-decoration : none;
+  color : black;
+}
+    /* EOS */
+  </style>
+
+  <script type="text/javascript">
+  	function changeBalance() {
+  		document.getElementById("Money").innerHTML=("Rp 96.500");
+  	}
+  </script>
+
+  <script id="insert"></script>
+
+
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>Bismillah Payment</title>
+	<link rel="stylesheet" href="gaya.css">
+	<link rel="stylesheet" href="payment.css">
+</head>
+<body>
+	<div class="content-wrapper">
+	<div class="navbar">
+		<img src="" alt="">
+		<ul>
+			<li><a href="homepage+login.html"> Home </a></li>
+			<li><a href="about.html"> About </a></li>
+			<li><a href="contact.html"> Contact </a></li>
+			<li><a href="schedule1.html"> Schedules </a></li>
+		</ul>
+		<div class="navbar-icons">
+			<img src="./Resource/user.png" alt="">
+		</div>
+	</div>
+	<br>
+	<form>
+	<!-- Pertama, milih transportnya -->
+	<h1>Payment</h1>
+	<br><br><br><br><br>
+		<div class="Transport">
+      <h3>Transportation</h3>
+      <br>
+      <div>
+        <p style = "font-size: 1.15em">Choose your Transportation</p>
+        <br>
+        <div id="button-wrapper" style="font-family: Proxima Nova", Proxima Nova, Proxima Nova;>
+          <button type="button" id="button2" data-check="[name='rooms'][value='1']">
+            <input type="radio" name="rooms" value="1" checked/><span>TransJakarta</span>
+          </button>
+
+          <button type="button" id="button2" data-check="[name='rooms'][value='2']">
+            <input type="radio" name="rooms" value="2" /><span>KRL-Commuter</span>
+          </button>
+
+          <button type="button" id="button2" data-check="[name='rooms'][value='3']">
+            <input type="radio" name="rooms" value="3" /><span>MRT</span>
+          </button>
+
+          <button type="button" id="button2" data-check="[name='rooms'][value='4']">
+            <input type="radio" name="rooms" value="4" /><span>LRT</span>
+          </button>
+        </div>
+      </div>
+    </div>
+	  <br><br><br><br><br>
+	<!-- Kedua, memilih titik berangkat -->
+	<div class="Navigation">
+		<h3>Location Details</h3>
+    <br>
+	<label for="Berangkat"> Choose your departure location</label>
+	<select id="Berangkat">
+		<option>-</option>
+		<option>Blok M</option>
+		<option>Masjid Agung</option>
+		<option>Bundaran Senayan</option>
+		<option>Gelora Bung Karno</option>
+		<option>Polda Metro Jaya</option>
+		<option>Bendungan Hilir</option>
+		<option>Karet Sudirman</option>
+		<option>Dukuh Atas</option>
+		<option>Tosari</option>
+		<option>Bundaran HI</option>
+		<option>Sarinah</option>
+		<option>Bank Indonesia</option>
+		<option>Monas</option>
+		<option>Harmoni</option>
+		<option>Sawah Besar</option>
+		<option>Mangga Besar</option>
+		<option>Olimo</option>
+		<option>Glodok</option>
+		<option>Kota</option>
+	</select>
+
+	<br>
+	<!-- Ketiga, memilih titik tujuan akhir -->
+	<label for="Datang"> Choose your destination</label>
+	<select id="Datang">
+		<option>-</option>
+		<option>Blok M</option>
+		<option>Masjid Agung</option>
+		<option>Bundaran Senayan</option>
+		<option>Gelora Bung Karno</option>
+		<option>Polda Metro Jaya</option>
+		<option>Bendungan Hilir</option>
+		<option>Karet Sudirman</option>
+		<option>Dukuh Atas</option>
+		<option>Tosari</option>
+		<option>Bundaran HI</option>
+		<option>Sarinah</option>
+		<option>Bank Indonesia</option>
+		<option>Monas</option>
+		<option>Harmoni</option>
+		<option>Sawah Besar</option>
+		<option>Mangga Besar</option>
+		<option>Olimo</option>
+		<option>Glodok</option>
+		<option>Kota</option>
+	</select>
+	</div>
+	<br>
+	<div class="submit">
+    <button onclick="alert('Payment Successful'); changeBalance()" type="submit"> <a href="#">Order Ticket Rp 3.500</a></button>
+	</div>
+	
+	</form>
+	<br><br>
+	<div class="Balance">
+		<form>
+			<h4>085 *** ****</h4>
+			<h2>Balance</h2>
+			<p id="Money">Rp 100.000</p>
+			<br>
+      <button><a href="#">+TOP UP</a></button>
+		</form>
+	</div>
+</body>
+</html>
+
+    <script type="text/javascript">//<![CDATA[
+
+
+/* ----- JavaScript ----- */
+var buttons = document.querySelectorAll("button[id^=button]");
+[].forEach.call(buttons, function(button) {
+  button.onclick = function() {
+    /* Remove the 'checked' attribute from the other inputs */
+    [].forEach.call(buttons, function(each) {
+      if (button !== each)[].forEach.call(each.children, function(child) {
+        if (child.nodeName === "INPUT") child.removeAttribute("checked");
+      });
+    });
+
+    /* Check the child input */
+    document.querySelector(this.getAttribute("data-check")).setAttribute("checked","");
+
+    /* Remove the 'clicked' attribute from every button */
+    [].forEach.call(buttons, function(each) {
+      each.removeAttribute("clicked");
+    });
+
+    /* Add the 'clicked' attribute to the clicked button */
+    this.setAttribute("clicked", "");
+  }
+});
+
+
+  //]]></script>
+
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "vy1Lh2pw"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+</div>
+</body>
+</html>

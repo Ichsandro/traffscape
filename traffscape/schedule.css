@@ -1,0 +1,119 @@
+body {
+  background-color: #F4D497;
+}
+
+@font-face{
+  font-family:"Proxima Nova Alt Bold";
+  src:url("Proxima Nova Alt Bold.otf");
+}
+
+.navbar {
+  margin : 30px auto;
+  display: flex;
+  align-items: center;
+}
+
+ab {
+  flex :1;
+  text-align: right;
+  font-family: "Proxima Nova", Proxima Nova, Proxima Nova
+}
+
+ab bc {
+  display: inline-block;
+  list-style : none;
+  margin : 0 25px;
+}
+
+ab bc c {
+  text-decoration: none;
+  color: black;
+  padding : 0 10px;
+  position : relative;
+}
+
+ab bc c::after {
+  content: '';
+  width: 0;
+  height : 10px;
+  background: #A56248;
+  position: absolute;
+  left : 50%;
+  transform: translateX(-50%);
+  top : -55px;
+  transition: 0.5s;
+}
+
+ab bb c:hover::after {
+  width : 100%;
+}
+
+a.navbar {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-icons img {
+  height: 25px;
+  cursor: pointer;
+}
+
+.navbar-icons {
+  margin-left: 40px;
+
+}
+
+a.body {
+  color: white;
+  text-decoration: none;
+}
+
+h1,h2,h3 {
+  margin: 10;
+  font-family: "Proxima Nova Alt Bold";
+}
+
+li {
+  font-size: 12px;
+}
+#container{
+  width:800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header {
+
+  background-color: #064959;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+#content{
+  padding: 10px;
+}
+
+#kor{
+  background-color: #A56248;
+  width:180px;
+  color:white;
+  float:left;
+  font-family: "Proxima Nova Alt Bold";
+  padding: 5px;
+}
+
+#kor.selected{
+  font-weight: bold;
+}
+
+#main {
+  width:550px;
+  float:right;
+  font-family: "Proxima Nova Alt Bold";
+  padding: 10px;
+}
+
+#main.paragraph {
+  font-size: 50px;
+  line-height: 62px;
+}
